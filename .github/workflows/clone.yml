@@ -20,5 +20,4 @@ jobs:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
         GH_PUSH_REPO_URL: ${{ secrets.GH_PUSH_REPO_URL }}
       run: |
-        wget https://raw.githubusercontent.com/XSans02/my-script/aosp-clang/goClone
         bash goClone
