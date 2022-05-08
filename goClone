@@ -21,7 +21,7 @@ wget --quiet https://android.googlesource.com/platform/prebuilts/clang/host/linu
 tar -xf ${CLANG_VERSION}.tgz
 rm -rf ${CLANG_VERSION}.tgz
 
-git clone "https://$GH_USERNAME:$GH_TOKEN@$GH_PUSH_REPO_URL" ${DIR}/push
+git clone "https://$GITLAB_TOKEN_USERNAME:$GITLAB_TOKEN_TOKEN@$GITLAB_TOKEN_PUSH_REPO_URL" ${DIR}/push
 rm -rf ${DIR}/push/*
 cp -rf ${DIR}/tmp/* ${DIR}/push/
 
