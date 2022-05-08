@@ -14,7 +14,7 @@ msg() {
 export DIR="$(pwd ...)"
 
 # set a clang version
-export CLANG_VERSION="clang-r437112b"  # See latest from https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+/refs/heads/master
+export CLANG_VERSION="clang-r450784e"  # See latest from https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+/refs/heads/master
   
 mkdir ${DIR}/tmp
 cd ${DIR}/tmp
