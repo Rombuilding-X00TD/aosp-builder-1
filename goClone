@@ -12,9 +12,6 @@ export DIR="$(pwd ...)"
 
 # set a clang version
 export CLANG_VERSION="clang-r437112b"  # See latest from https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+/refs/heads/master
-
-git config --global user.email "raj15400881@gmail.com"
-git config --global user.name "STRK-ND"
   
 mkdir ${DIR}/tmp
 cd ${DIR}/tmp
